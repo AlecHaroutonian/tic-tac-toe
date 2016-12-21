@@ -7,17 +7,16 @@
   <body>
     <svg id="game-board" width="80%" viewBox="0 0 600 600">
 
-    <rect x="50" y="50" width="150" height="150" fill="lightblue"/>
-    <rect x="210" y="50" width="150" height="150" fill="grey"/>
-    <rect x="370" y="50" width="150" height="150" fill="lightblue"/>
-    <rect x="50" y="210" width="150" height="150" fill="grey"/>
-    <rect x="210" y="210" width="150" height="150" fill="lightblue"/>
-    <rect x="370" y="210" width="150" height="150" fill="grey"/>
-    <rect x="50" y="370" width="150" height="150" fill="lightblue"/>
-    <rect x="210" y="370" width="150" height="150" fill="grey"/>
-    <rect x="370" y="370" width="150" height="150" fill="lightblue"/>
+    <rect x="50" y="50" width="150" height="150" fill="lightblue" onclick="pink1()"/>
+    <rect x="210" y="50" width="150" height="150" fill="grey" onclick="pink2()"/>
+    <rect x="370" y="50" width="150" height="150" fill="lightblue"onclick="pink3()"/>
+    <rect x="50" y="210" width="150" height="150" fill="grey" onclick="pink4()"/>
+    <rect x="210" y="210" width="150" height="150" fill="lightblue" onclick="pink5()"/>
+    <rect x="370" y="210" width="150" height="150" fill="grey" onclick="pink6()"/>
+    <rect x="50" y="370" width="150" height="150" fill="lightblue" onclick="pink7()"/>
+    <rect x="210" y="370" width="150" height="150" fill="grey" onclick="pink8()"/>
+    <rect x="370" y="370" width="150" height="150" fill="lightblue" onclick="pink9()"/>
 
-    <circle=player1/>
     <circle id="pink1"cx="120" cy="120" r="50" fill="none"/>
     <circle id="pink2"cx="285" cy="120" r="50" fill="none"/>
     <circle id="pink3"cx="445" cy="120" r="50" fill="none"/>
@@ -28,7 +27,6 @@
     <circle id="pink8"cx="285" cy="445" r="50" fill="none"/>
     <circle id="pink9"cx="445" cy="445" r="50" fill="none"/>
 
-    <circle=player2/>
     <circle id="blue1"cx="120" cy="120" r="50" fill="none"/>
     <circle id="blue2"cx="285" cy="120" r="50" fill="none"/>
     <circle id="blue3"cx="445" cy="120" r="50" fill="none"/>
@@ -40,9 +38,7 @@
     <circle id="blue9"cx="445" cy="445" r="50" fill="none"/>
 
   </svg>
-    <h2>Project tic tac toe</h2>
-
-    <!-- This line of code points to your JavaScript file. No need to touch it. -->
+    <h1>Project tic tac toe</h1>
     <script src="tic-tac-toe.js"></script>
   </body>
 </html>
